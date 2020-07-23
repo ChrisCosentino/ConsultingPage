@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0" /> -->
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
+    <title>Document</title>
+    <link href="styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header>
+      <div class="company">Mauro <span>Rotondi</span></div>
+      <div class="nav">
+        <a class="nav-link" href="#services">Services</a>
+        <a class="nav-link" href="#">Why Us</a>
+        <a class="nav-link" href="#">Pricing</a>
+        <a class="nav-link contact-link" href="#contact">Contact</a>
+      </div>
+    </header>
+    <div class="landing">
+      <div class="text-content">
+        <span class="slogan">We are setting the pace in our industry</span>
+        <span class="subtitle">Are You?</span>
+        <span class="info"
+          >Our team of financial gurus can help make your business more
+          efficient, giving you more time to focus on the things you need
+          to</span
+        >
+        <a href="#contact" class="contact-btn">Get in touch</a>
+      </div>
+      <div class="img-content">
+        <img src="landing.jpg" class="landing-img" />
+      </div>
+    </div>
+    <div class="services section-container" id="services">
+      <h1 class="section-title">Services</h1>
+      <div class="services-container">
+        <div class="service" style="background-color: #f0eafe;">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="36"
+            height="36"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="black"
+            stroke-width="1"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="feather feather-book service-img"
+          >
+            <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+            <path
+              d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"
+            ></path>
+          </svg>
+          <span class="service-title">Book Keeping</span>
+          <span class="service-desc"
+            >This is the book keeping desc keep that in mind. It is important to
+            hire experienced bookkeeping and accounting service with a strong
+            track record of client satisfaction and a high client retention
+            rate.
+          </span>
+        </div>
+        <div class="service" style="background-color: #ffeced;">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="36"
+            height="36"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="1"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="feather feather-credit-card service-img"
+          >
+            <rect x="1" y="4" width="22" height="16" rx="2" ry="2"></rect>
+            <line x1="1" y1="10" x2="23" y2="10"></line>
+          </svg>
+          <span class="service-title">Payroll Reconciliation</span>
+          <span class="service-desc"
+            >Payroll Clerks are responsible for all tasks relating to payroll
+            processing such as collecting employees' timesheets and payroll
+            data, calculating wages, issuing statements, detailing earnings, and
+            preparing paychecks.</span
+          >
+        </div>
+        <div class="service">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="36"
+            height="36"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="1"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="feather feather-dollar-sign service-img"
+          >
+            <line x1="12" y1="1" x2="12" y2="23"></line>
+            <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
+          </svg>
+          <span class="service-title">Taxes</span>
+          <span class="service-desc"
+            >We help keep your books up to date, your government remittances
+            filed, and any documents electronically filed so they are readily
+            available. Our goal is to give you the insight you need to grow your
+            business
+          </span>
+        </div>
+        <div class="service">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="36"
+            height="36"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="1"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="feather feather-dollar-sign service-img"
+          >
+            <line x1="12" y1="1" x2="12" y2="23"></line>
+            <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
+          </svg>
+          <span class="service-title">Taxes</span>
+          <span class="service-desc"
+            >We help keep your books up to date, your government remittances
+            filed, and any documents electronically filed so they are readily
+            available. Our goal is to give you the insight you need to grow your
+            business
+          </span>
+        </div>
+      </div>
+    </div>
+    <div class="contact section-container" id="contact">
+      <h1 class="section-title">Contact</h1>
+      <form>
+        <div class="info-container">
+          <input
+            type="text"
+            placeholder="Name"
+            name="name"
+            class="text-input"
+          />
+          <input
+            type="email"
+            name="email"
+            placeholder="Email"
+            class="text-input"
+          />
+        </div>
+
+        <textarea
+          id="message"
+          name="message"
+          rows="10"
+          cols="50"
+          placeholder="Your message"
+        ></textarea>
+        <input type="submit" value="Submit" class="submit-btn" />
+      </form>
+    </div>
+  </body>
+</html>
