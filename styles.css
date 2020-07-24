@@ -5,6 +5,17 @@
   --dark-blue-color: #287edd;
 }
 
+::-moz-selection {
+  /* Code for Firefox */
+  color: black;
+  background: #ddd;
+}
+
+::selection {
+  color: black;
+  background: #ddd;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -312,4 +323,47 @@ form {
     margin-left: 5px;
     margin-right: 5px;
   }
+}
+
+.contact-section {
+  background-color: #f1f1f1;
+}
+
+.contact-number {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  align-items: center;
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
+.contact-number > span {
+  margin-left: 20px;
+}
+
+.contact-number > span > a {
+  text-decoration: none;
+  color: black;
+}
+
+.contact-email {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+}
+.contact-email > span {
+  margin-left: 20px;
+}
+
+.contact-email > span > a {
+  color: black;
+  text-decoration: none;
+
+  border-bottom: 2px solid blue;
+}
+
+.contact-section {
+  padding-bottom: 60px;
 }
